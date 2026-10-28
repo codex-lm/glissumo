@@ -1,0 +1,28 @@
+{
+  "name": "glissumo",
+  "version": "0.1.0",
+  "sha256": {
+    "index.html": "6917eb6eb81bd0f1591365f46bebf59d513c39fa00220689a43720d4e48d064f",
+    "style.css": "30d3f1b9510676c53883b00b10b9e06a663f64287ee9daa08af04a1e2c02a953",
+    "app.js": "8ce02215abc7580cf45b44b481a54a22a22dd59263494f295d66bd64c0a98194",
+    "engine.js": "86696348291a380546f6d6e1a24155ba3f06fdee6ce081fd8d7b2a73f0f2aae8",
+    "network.js": "af4eb6704b1ea0beb8bc5e86eb7f873f7c014aea249cfedda57ba0583c1137e0",
+    "renderer.js": "b1303791ed10b6405d2e97ac4714cbf391c86b03b1e7b8768eaddcd6d8652b52",
+    "i18n.js": "5d8a877f3f5030358dbd6903f56a7e10761df358558fad01ac81436762c9ab54",
+    "audio.js": "f6a970870ed7583b20dbab1c0e01eb13621107bc4f72721892aea77473f14311",
+    "icon.svg": "b060ee7e5fa5745a9d5fcbffccdf49f0eb586f3fc63638748dac2d0422b96801",
+    "LOB7-GAME.json": "ea231e3e36a72c1068713a213c728ed6088d7651117d0091175bd48bc4bb4403",
+    "LICENSE": "bb1b7bd0c2fe53bb39ff4f25435fd75043890af7d31570e5231e775e38b55625",
+    "CREDITS.md": "8bcd9a103939305e7265f0f4958329bcd0a14a4cc80bf69de7d787e58a278dd2",
+    "README.md": "2f950621c96f41aa62e5674b74a6a9e13753cbe492e6138da172288545a8896e",
+    "vendor/lob7-rooms.js": "aeaec949a3fc29ead54be5fd6d804896d02f97ac98c6472633e5da18b9217603",
+    "vendor/lob7-rooms-p2p.js": "16757cffa1b2bf8c4ceb58968fda48ae35dc5260504aacd484608a16ab6642c3",
+    "vendor/LICENSE-LOB7.txt": "9d29a07be8e5bd8d4d0aac4a51ec11deaae036febb87dad9af7ad78dd65b7eeb",
+    "assets/audio/music.mp3": "1df03256af0bdb3088a24469aa0f5669580a38d79a2b735dd4644b3ce1fee818",
+    "assets/audio/collect.mp3": "9725117a345d2609b2ad8940ce202452970ac2c342ad15f93404de7fb2100117",
+    "assets/audio/bank.mp3": "dd128de2608f0e9f0bdc01166bbab16605ff9123dee3dffd3a12b24b7d8b2433",
+    "assets/audio/steal.mp3": "66db630c3aa93d7492dadff478f8f427694bcf6f3094e7cadc1faa9117db5566",
+    "assets/audio/PROVENANCE.md": "5da197923e6974c556176cd55df99c5793020fc8844fa9813b1f2311129e1029"
+  },
+  "sourceCommit": "5697ffe15b39e83e3d64c2509ea42eda5d641db6"
+}

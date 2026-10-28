@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101d30">
+  <title>Glissumo — Slide. Snatch. Score.</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="vendor/lob7-rooms.js"></script>
+  <script src="vendor/lob7-rooms-p2p.js"></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <div class="brand" aria-label="Glissumo"><span class="brand-mark" aria-hidden="true">↔</span><span id="brand">Glissumo</span><span class="edition">VOL. 01</span></div>
+      <div class="preferences"><button id="music" class="icon-button" type="button" aria-pressed="false" aria-label="Music">♫<span id="music-label">OFF</span></button><button id="sound" class="icon-button" type="button" aria-pressed="false" aria-label="Sound">◖<span id="sound-label">OFF</span></button><select id="language" aria-label="Language"><option value="en">EN</option><option value="fr">FR</option><option value="es">ES</option></select></div>
+    </header>
+    <section class="intro"><p class="eyebrow" id="eyebrow">A LITTLE FRIENDLY SABOTAGE</p><h1 id="tagline">Your move.<br><span>Their problem.</span></h1><p class="pitch" id="pitch">Catch the sparks. Slide your whole row.<br>Bring them home before your rival does.</p></section>
+    <section class="game" aria-label="Game">
+      <div class="scorebar">
+        <div class="scorecard mint"><span class="player-name" id="name0">● MINT</span><div><strong id="score0">0</strong><span id="cargo0" class="cargo" aria-label="Cargo">○ ○ ○</span></div></div>
+        <div class="clock"><span id="mode-label">2 MIN · 2 PLAYERS</span><strong id="timer">2:00</strong><span id="round-label">MAKE YOUR MOVE</span></div>
+        <div class="scorecard coral"><span class="player-name" id="name1">■ CORAL</span><div><span id="cargo1" class="cargo" aria-label="Cargo">○ ○ ○</span><strong id="score1">0</strong></div></div>
+      </div>
+      <div class="arena-wrap">
+        <canvas id="arena" width="840" height="600" aria-label="Seven columns, five moving rows. Use the direction buttons to play." tabindex="0"></canvas>
+        <div class="overlay" id="overlay">
+          <div class="menu-card">
+            <span id="menu-kicker" class="eyebrow">ONE BOARD. TWO TROUBLEMAKERS.</span><h2 id="menu-title">Pull your weight.<br>And theirs.</h2><p id="menu-text">← → slides the whole row<br>↑ ↓ hops to catch sparks<br>Bring sparks to your coloured edge.</p>
+            <div class="menu-actions"><button id="solo" class="primary" type="button">Play solo <span>↗</span></button><button id="connect" class="secondary" type="button">Play together <span>↔</span></button><button id="ready" class="primary hidden" type="button">I'm ready <span>✓</span></button><button id="rematch" class="primary hidden" type="button">One more round <span>↻</span></button></div>
+            <div id="difficulty-wrap" class="difficulty"><label for="difficulty" id="difficulty-label">Your rival</label><select id="difficulty"><option value="easy" selected>Chill</option><option value="normal">Sharp</option></select></div>
+            <p id="menu-note" class="menu-note">120 seconds. A new board every round.</p>
+          </div>
+        </div>
+        <div id="countdown" class="countdown hidden" aria-live="assertive"></div>
+        <div id="toast" class="toast" aria-live="polite"></div>
+      </div>
+      <div class="identity" id="identity"><span class="you-dot"></span><strong id="identity-title">YOU ARE MINT</strong><span id="identity-goal">Bank on the left ←</span></div>
+      <div class="control-deck">
+        <div class="control-group"><span id="hop-label">HOP & CATCH</span><div><button data-action="up" type="button" aria-label="Hop up">↑</button><button data-action="down" type="button" aria-label="Hop down">↓</button></div></div>
+        <div class="control-hint" id="control-hint">Hold to move<br><span>ARROWS / WASD / ZQSD</span></div>
+        <div class="control-group"><span id="slide-label">SLIDE THE ROW</span><div><button data-action="left" type="button" aria-label="Slide left">←</button><button data-action="right" type="button" aria-label="Slide right">→</button></div></div>
+      </div>
+      <div class="session"><span id="status" role="status">Solo or a friend. Your call.</span><button id="leave" class="text-button hidden" type="button">Leave</button></div>
+    </section>
+    <footer><span id="footer-rule">Three sparks in your pocket. Bump a rival to steal one.</span><span>Original game by Nilo for LOB7, with AI assistance · <span id="version">0.1.0</span></span></footer>
+  </main>
+</body>
+</html>
