@@ -13,7 +13,8 @@
   "themes": ["Shared board", "Light"],
   "credits": [
     "Original game by Nilo for LOB7, with AI assistance",
-    "LOB7 Rooms SDK and P2P helper: Copyright (c) 2026 Predira Ltd, MIT license."
+    "LOB7 Rooms SDK and P2P helper: Copyright (c) 2026 Predira Ltd, MIT license.",
+    "Music generated with Suno; sound effects generated with ElevenLabs (elevenlabs.io). Generated audio has separate terms from the MIT code license; see CREDITS.md and assets/audio/PROVENANCE.md."
   ],
   "multiplayer": { "mode": "p2p", "maxPlayers": 2 }
 }
