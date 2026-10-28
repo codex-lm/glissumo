@@ -1,0 +1,19 @@
+{
+  "title": "Glissumo",
+  "description": "Slide a whole row, ride the sparks, and bring them home before your rival. A two-minute duel on a board you both control, with a solo opponent and instant rematches.",
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "controls": [
+    "Arrow keys, WASD, ZQSD or the on-screen direction buttons: move.",
+    "Up/down: hop to another row. Left/right: slide the entire row, including your rival.",
+    "Collect up to three sparks and bring them to your colored edge to score. Bump into your rival vertically to steal one carried spark.",
+    "Both players select Ready to start or rematch. Keep the host tab open."
+  ],
+  "genre": ["Arcade", "Competitive"],
+  "themes": ["Shared board", "Light"],
+  "credits": [
+    "Original game by Nilo for LOB7, with AI assistance",
+    "LOB7 Rooms SDK and P2P helper: Copyright (c) 2026 Predira Ltd, MIT license."
+  ],
+  "multiplayer": { "mode": "p2p", "maxPlayers": 2 }
+}
