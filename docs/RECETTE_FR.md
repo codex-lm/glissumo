@@ -1,6 +1,6 @@
-# Glissumo 0.1.0 — recette du 28 octobre 2026
+# Glissumo 0.1.0 — recette des 28 et 29 octobre 2026
 
-Dépôt cible : `codex-lm/glissumo`. Le développement se trouve sur `main` ; la
+Dépôt : `codex-lm/glissumo`. Le développement se trouve sur `main` ; la
 branche `lob7` reçoit l’export statique destiné à préparer une édition exacte.
 Le nom de code initial était `duo`.
 
@@ -79,7 +79,47 @@ La licence MIT du code ne s’étend pas aux enregistrements générés : une bo
 Suno et trois effets ElevenLabs. Leur provenance et leurs conditions distinctes
 sont documentées dans `assets/audio/PROVENANCE.md` et `CREDITS.md`.
 
-## Recette encore nécessaire après publication par Cédric
+## Publication existante confirmée le 29 octobre
+
+La fiche publique confirme **Glissumo 0.1.0, publiée le 28 octobre 2026 par
+Cédric**. Il s’agit d’une publication déjà effectuée, découverte lors de la
+vérification du 29 octobre ; aucune seconde publication n’a été créée pendant
+cette session.
+
+- Jeu : `bg_s_7a0e7f96-afd5-4fb4-b1cc-d4abfc5214e6`.
+- Édition : `br_s_5a30e58c-1f2d-4b54-9b9d-c20d24d94c38`.
+- [Lecteur de cette édition](https://lob7.com/player/br_s_5a30e58c-1f2d-4b54-9b9d-c20d24d94c38).
+- Commit source exact : `25d2097b8f4196bec02b7eabc2677d95d4071797`, branche `lob7`.
+
+Le contrôle Git en lecture seule a confirmé que cet export possède exactement
+le même arbre que `d417907855658bf7485bfee6fe9726bc7b6c5dc6` :
+`76a1d4be3e67e9ad81729447179aec697834a9cd`. Les 21 empreintes de fichiers dans
+`BUILD.json` correspondent toutes ; l’export contient 22 fichiers au total,
+sans ajout inattendu. La version reste `0.1.0` et le commit de développement
+enregistré dans ce manifeste est `5697ffe15b39e83e3d64c2509ea42eda5d641db6`.
+
+Le commit `281334b3422541bb6d26511dc65b65c5ebfa4bcb` sur `main` ajoute uniquement
+la preuve publique de propriété du brouillon
+`bd_s_69488a33-b089-4991-b2e2-0fa2c87a7a96`. Le dépôt local propre a été avancé
+vers ce commit par fast-forward, en conservant cette preuve. Aucune modification
+n’a été apportée à la branche d’export publiée.
+
+## Contrôle du lecteur hébergé le 29 octobre
+
+Le navigateur intégré était connecté au compte **`codex-lm` (Nilo)**. Le lecteur
+hébergé de l’édition existante a chargé l’iframe Glissumo, avec ses commandes
+et le menu affichant les 120 secondes de partie. Le lecteur a ensuite arrêté
+le jeu en indiquant qu’un autre jeu l’avait remplacé. **Aucune nouvelle partie
+complète n’a été jouée et aucun lancement solo réussi n’est confirmé pendant
+ce contrôle hébergé** ; les parties solo complètes décrites plus haut restent
+des observations de l’aperçu local.
+
+Microsoft Edge était déconnecté de son compte LOB7 au moment du contrôle.
+Un second compte authentifié n’était donc pas disponible pour la recette à
+deux comptes. Aucun résultat de connexion directe ou de partie à deux n’est
+déduit du simple chargement du lecteur.
+
+## Recette encore nécessaire sur l’édition publiée
 
 - Une partie complète de cette édition entre **deux navigateurs et deux comptes
   LOB7 distincts**, avec observation de la connexion et du résultat des deux
@@ -92,10 +132,11 @@ sont documentées dans `assets/audio/PROVENANCE.md` et `CREDITS.md`.
   plaisir de jeu et l’équilibrage.
 
 Le serveur LOB7 n’autorise les salons que pour une édition hébergée exacte,
-publiée et visible. La recette à deux comptes de ce nouveau jeu dépend donc de
-la publication que Cédric effectuera lui-même. La recette réussie de Prism Pair
-ne vaut pas recette de Glissumo ; réutiliser son salon avec d’autres fichiers
-ne validerait pas cette édition.
+publiée et visible. L’édition de Cédric remplit désormais cette condition et
+doit être réutilisée. La recette réussie de Prism Pair ne vaut pas recette de
+Glissumo ; réutiliser son salon avec d’autres fichiers ne validerait pas cette
+édition.
 
-Aucune publication LOB7, fusion de PR, modification ou déploiement de la
-plateforme n’a été effectué. **L’annonce #59 reste inchangée en brouillon.**
+Aucune publication LOB7 supplémentaire, fusion de PR, modification ou déploiement
+de la plateforme n’a été effectué pendant cette session. **L’annonce #59 reste
+inchangée en brouillon.**

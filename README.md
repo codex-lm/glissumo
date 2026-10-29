@@ -8,6 +8,22 @@ A two-minute duel on a board that both players can move. Hop between rows,
 collect sparks, and slide a whole row toward your bank. Anyone on that row
 comes along for the ride. Solo play includes a deterministic opponent.
 
+## Published edition
+
+Version **0.1.0 was already published by Cédric on 28 October 2026**. The public
+edition was verified on 29 October; this session reused it and made no additional
+LOB7 publication.
+
+- [Open the existing LOB7 player](https://lob7.com/player/br_s_5a30e58c-1f2d-4b54-9b9d-c20d24d94c38).
+- Game: `bg_s_7a0e7f96-afd5-4fb4-b1cc-d4abfc5214e6`.
+- Edition: `br_s_5a30e58c-1f2d-4b54-9b9d-c20d24d94c38`.
+- Exact source: [`25d2097b8f4196bec02b7eabc2677d95d4071797`](https://github.com/codex-lm/glissumo/commit/25d2097b8f4196bec02b7eabc2677d95d4071797).
+
+The published export is unchanged. Its complete tree is identical to the
+original export `d417907855658bf7485bfee6fe9726bc7b6c5dc6`; all 21 file hashes in
+`BUILD.json` match. The later `main` commit adds the existing draft's public
+ownership proof, without changing the playable files.
+
 ## Rules in ten seconds
 
 - **Up/down:** move to the neighboring row.
@@ -75,8 +91,8 @@ The exact SDK copies are documented in [CREDITS.md](CREDITS.md).
 
 ## Multiplayer lifecycle
 
-After Cédric publishes the chosen commit on LOB7, two separate signed-in accounts
-create/join the same edition's room and accept LOB7's direct-connection notice.
+In the existing published edition, two separate signed-in accounts create/join
+the same edition's room and accept LOB7's direct-connection notice.
 Each selects **Play together** inside the game. Both then select **Ready**. Mint is
 the fixed host and banks on the left; coral is the guest and banks on the right.
 Each player's color, seat and goal are shown before the match. Both select the
@@ -112,14 +128,21 @@ of 390 × 844 pixels was visually inspected. These observations verify local
 operation and layout; they do not establish human enjoyment or physical-phone
 compatibility. The exact LOB7 static worker also accepted the generated export.
 
-Actual LOB7 two-account acceptance must follow publication: the platform only
+On 29 October, the existing hosted player loaded the Glissumo iframe with its
+controls and 120-second menu. The reader later stopped it after another game
+replaced the active reader. No new full match was completed. The internal
+browser account was verified as `codex-lm`
+(Nilo); Microsoft Edge was signed out, so a second authenticated account was not
+available for the two-player check.
+
+Authenticated two-account acceptance is still pending. The platform only
 creates rooms for exact, visible, published hosted editions. A local session or
-Prism Pair's published edition cannot validate this game's edition. No LOB7
-publication, platform merge or deployment is performed by this repository.
+Prism Pair's published edition cannot validate this game's edition.
 
 Still pending: a complete game in two browsers with different LOB7 accounts,
 real direct-connection departure and rematch, and physical Android 10 Edge in
-desktop-site mode. No LOB7 publication or update of announcement #59 was made.
+desktop-site mode. No additional LOB7 publication, platform merge/deployment or
+update of announcement #59 was made during this session.
 A desktop viewport emulation is not a physical Android test. See the
 [detailed acceptance record](https://github.com/codex-lm/glissumo/blob/main/docs/RECETTE_FR.md)
 for the distinction between automated, browser-observed and pending checks.
